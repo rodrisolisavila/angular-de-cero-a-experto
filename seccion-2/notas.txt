@@ -1,0 +1,22 @@
+Configuración de usuario y correo en GitHub:
+
+git config --global user.name "rodrisolisavila"
+git config --global user.email "rodri.solis.avila@gmail.com"
+
+Angular y AngularJS:
+Angular es el framework desarrollado por Google y es el sucesor de la biblioteca AngularJS, la cual se considera obsoleta en la actualidad. Angular y AngularJS son entidades distintas.
+
+Verificar la versión de Angular:
+
+ng version
+
+¿Qué es TypeScript?
+TypeScript es un superset de JavaScript, lo que significa que es esencialmente JavaScript, pero con extensiones de características propias. Además, incluye mejoras y funcionalidades adicionales que no están presentes en JavaScript, lo que enriquece aún más ese lenguaje de programación.
+
+Principales características de TypeScript:
+
+Es un superset de JavaScript.
+Ofrece tipado estricto y flexible (se puede trabajar tanto con TypeScript como con JavaScript).
+Mejora significativamente la legibilidad del código gracias al tipado.
+Permite el uso de características modernas de JavaScript sin preocuparse por la compatibilidad.
+El tipado estricto en TypeScript es especialmente útil para comprender cómo funcionan las cosas en el código.

@@ -1,0 +1,8 @@
+vanilla es javascrip puro sin ninguna libreria
+package.json descripcion general el proyecto y dependencias
+un modulo es una agrupacion encapsulada de un procedimiento
+
+npm create vite
+goto folder project
+npm install
+npm run dev
