@@ -6,3 +6,9 @@ npm create vite
 goto folder project
 npm install
 npm run dev
+
+
+// string[] arreglo de string
+las constantes son mas ligeras que las variables let porque no tienen metodos de asignacion
+// const strider = { name: 123, hp: 100} objeto
+// interfaces sirven para tipar de manera estrict un objeto
