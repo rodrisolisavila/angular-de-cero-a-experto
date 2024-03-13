@@ -1,14 +1,44 @@
-vanilla es javascrip puro sin ninguna libreria
-package.json descripcion general el proyecto y dependencias
-un modulo es una agrupacion encapsulada de un procedimiento
+Vanilla JavaScript: Se refiere a JavaScript puro, sin utilizar ninguna biblioteca externa.
+
+package.json: Es un archivo que contiene información general sobre el proyecto y sus dependencias.
+
+Módulo: Es una agrupación encapsulada de funciones o procedimientos.
+
 
 npm create vite
-goto folder project
+-go to folder project
 npm install
 npm run dev
 
+npm create vite: Comando para crear un nuevo proyecto usando Vite.
+
+npm install: Comando para instalar las dependencias del proyecto.
+
+npm run dev: Comando para ejecutar el proyecto en modo de desarrollo.
+
 
 // string[] arreglo de string
-las constantes son mas ligeras que las variables let porque no tienen metodos de asignacion
 // const strider = { name: 123, hp: 100} objeto
 // interfaces sirven para tipar de manera estrict un objeto
+
+Constantes vs. Variables let: Las constantes son más ligeras que las variables let porque no admiten reasignación de valor.
+
+TypeScript: Un lenguaje de programación que añade tipado estático a JavaScript.
+
+Importaciones y exportaciones: Permiten la modularización del código, creando módulos que pueden ser requeridos en otros archivos.
+
+Clases en TypeScript: Son moldes para crear instancias con características específicas.
+
+Constructor: Es el primer método que se llama cuando se crea una instancia de una clase. Se utiliza para inicializar la instancia y configurar su estado inicial.
+
+Inyección de dependencias: Es un patrón de diseño en el que las dependencias de un objeto son proporcionadas externamente en lugar de ser creadas internamente.
+
+Herencia de clases: Permite a una clase extender o heredar todas las propiedades y métodos de otra clase.
+
+super: Es una palabra clave que se utiliza en una clase secundaria para llamar al constructor de la clase padre.
+
+<T> (Genérico): Se refiere a la utilización de tipos genéricos en TypeScript para hacer que una función o clase sea más flexible y reutilizable.
+
+Decoradores en TypeScript: Son funciones especiales que se adjuntan a clases, propiedades o métodos para modificar su comportamiento.
+
+Funciones de los Decoradores: Pueden modificar el comportamiento de las clases, propiedades y métodos a los que están asociados.
