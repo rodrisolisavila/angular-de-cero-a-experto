@@ -1,0 +1,49 @@
+angular es un framework
+
+-Marco de trabajo estandarizado
+-Viene con todo lo que necesitas para trabajar
+-Modular
+-Google es quien le da mantenimiento
+
+Angular se compone de 5 bloques o pilares fundamentales
+
+Componentes, rutas, directicas, servicios y modulos
+
+Los componentes podrias verse como un bloque de codigo que tiene su segmento
+de html y tiene una contraparte de TypeScript que usualmente es una clase que
+tiene un decorador
+
+Los servicios son singletons bastante fuertes que te van a permitir trabajar toda
+la aplicacion con la informacion centralizada, son lugares centralizados de informacion
+
+
+Directivas: hay tres tipos de directivas
+-Directivas de componentes
+Las directivas de componentes son parecidas a un componente, solo que tiene un pedazo de
+codigo HTML reutilizable
+
+-Directivas Estructurales
+Las directivas estructurales modifican el DOM o el HTML ya sea añadiendo elementos o
+removiendolos
+
+-Directivas de Atributos
+Las directivas de atributos basicamente cambian la apariencia o el comportamiento
+de un elemento, de otro componente o bien de una directiva
+
+
+
+Rutas: Mostras diferentes componentes basados en el URL del navegador web
+
+Modulos: Permiten agrupar componentes, rutas, directivas y servicios e inclusive otros 
+modulos
+
+Ejemplo:
+Modulo de productos
+Modulo de clientes
+Modulo de autentificacaion
+Modulo de Proveedores
+
+
+Ejecutar aplicación 
+
+ng serve --open

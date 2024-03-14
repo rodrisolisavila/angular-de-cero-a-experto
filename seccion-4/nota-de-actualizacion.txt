@@ -1,0 +1,23 @@
+Nota de actualización:
+
+Desde Angular v17, por defecto los proyectos trabajan sin módulos (module-less)
+
+
+
+Pero para trabajar de forma tradicional como lo vieron en el curso:
+
+ng new <nombre de la aplicación> --standalone false
+
+
+Desinstalar y actualizar Angular cli
+
+npm uninstall -g @angular/cli
+
+npm cache clean 
+
+npm cache clean --force
+
+npm install -g @angular/cli
+
+
+Es todo, sigamos con el curso.
