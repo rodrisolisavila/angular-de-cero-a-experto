@@ -47,3 +47,33 @@ Modulo de Proveedores
 Ejecutar aplicación 
 
 ng serve --open
+
+angular.json: configuraciones de la aplicacion
+
+ackage-lock.json: dependencias
+
+package.json: aplicacion de node y scripts
+
+revisar documentacion para mas informacion de archivos
+https://angular.io/guide/file-structure
+https://angular.io/guide/interpolation
+
+App Component
+
+{{}} Binding de variable
+
+Angular Dev Tools Chrome
+Angular Snippets (Version 13) John Papa
+
+a- para ver opciones
+
+one way data binding enlazado
+getter: propieda que en realidad es un metodo
+
+ng-template: contenedor invisible
+
+#nothingWasDeleted: referencia local
+
+<ng-template #nothingWasDeleted>
+    <h3 *ngIf="!deletedHero">No ha borrado nada</h3>
+</ng-template>
