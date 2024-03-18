@@ -55,25 +55,42 @@ ackage-lock.json: dependencias
 package.json: aplicacion de node y scripts
 
 revisar documentacion para mas informacion de archivos
+
 https://angular.io/guide/file-structure
 https://angular.io/guide/interpolation
 
 App Component
 
-{{}} Binding de variable
+El término "{{}}" se refiere al "binding de variable" en ciertos contextos de frameworks o bibliotecas de JavaScript, como Angular o Vue.js.
+
+En estas tecnologías, las dobles llaves {{}} se utilizan para indicar la interpolación de variables en las plantillas HTML. Esto significa que el valor de una variable en el código JavaScript se inserta dinámicamente en el HTML renderizado. Por ejemplo:
+
+<p>{{ mensaje }}</p>
+
+Aquí, "{{ mensaje }}" se traducirá en el valor actual de la variable "mensaje" en el componente de Angular o Vue.js.
+
+Este mecanismo es fundamental para vincular datos del modelo de JavaScript con la interfaz de usuario, permitiendo que la página web se actualice automáticamente cuando los datos cambian en el backend.
 
 Angular Dev Tools Chrome
 Angular Snippets (Version 13) John Papa
 
 a- para ver opciones
 
-one way data binding enlazado
-getter: propieda que en realidad es un metodo
+One-Way Data Binding (Enlazado de Datos Unidireccional): Es un patrón de enlace de datos en el que los datos fluyen en una sola dirección, generalmente desde el componente de datos al DOM (Documento de Objeto de Modelo) para actualizar la vista. Esto significa que los cambios en los datos del modelo actualizarán automáticamente la vista, pero los cambios en la vista no afectarán al modelo automáticamente. Este enfoque simplifica el seguimiento de los cambios en la aplicación y previene posibles efectos secundarios.
 
-ng-template: contenedor invisible
+Getter (Obtenedor): Es una propiedad que, en realidad, se comporta como un método. Cuando se accede a una propiedad a través de un getter, en realidad se ejecuta una función para calcular el valor de la propiedad en tiempo de ejecución. Esto permite realizar tareas adicionales, como cálculos o validaciones, antes de devolver el valor de la propiedad.
 
-#nothingWasDeleted: referencia local
+ng-template: Es una directiva de Angular que define un contenedor invisible en el DOM. Se utiliza principalmente para el marcado condicional o para la definición de plantillas reutilizables que no se renderizan de inmediato. Puede contener cualquier contenido HTML válido y es útil para mejorar la estructura y la legibilidad del código.
+
+#nothingWasDeleted (Referencia Local): En Angular, se utiliza el prefijo "#" para crear referencias locales a elementos del DOM o componentes. En este caso, "#nothingWasDeleted" crea una referencia local al elemento o componente con el nombre "nothingWasDeleted", lo que permite acceder a él desde el código del componente y realizar operaciones como eventos o manipulaciones del DOM. Las referencias locales son útiles para interactuar con elementos específicos del DOM dentro de los componentes de Angular.
 
 <ng-template #nothingWasDeleted>
     <h3 *ngIf="!deletedHero">No ha borrado nada</h3>
 </ng-template>
+
+Module en la seccion de imports
+Module en la sección de imports: Se refiere a la organización de los módulos o archivos que se importan en una aplicación o proyecto. En muchos casos, es una buena práctica importar primero los módulos internos de Angular, luego las bibliotecas de terceros y, por último, el código propio de la aplicación. Esta organización facilita la lectura y comprensión del código, además de evitar posibles conflictos entre nombres de módulos o bibliotecas.
+
+primero importaciones de angulas despues librerias de terceros y por ultimo nuestro codigo
+
+git checkout -- .: Este es un comando de Git que se utiliza para descartar los cambios locales en todos los archivos de un repositorio. Al ejecutar este comando, se restauran todos los archivos en su estado original, eliminando cualquier cambio que no se haya confirmado. Es útil cuando se quiere deshacer todos los cambios realizados en los archivos antes de realizar un commit.
