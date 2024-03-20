@@ -1,0 +1,12 @@
+pagina es un componentes html
+
+Angular Schematics Cyrille Tuzi VS Code Extension
+
+[ngClass]: Añadir clases de manera condicional
+
+debugger; : interrumpir o pausar la ejecucion en la linea que se encuentra
+
+
+npm i uuid
+import {} from 'uuid';
+npm i --save-dev @types/uuid
