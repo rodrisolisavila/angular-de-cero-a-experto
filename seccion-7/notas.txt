@@ -1,0 +1,16 @@
+GifsApp
+
+Decorador @ViewChild
+
+AppModule importar HttpClienteModule
+
+https://app.quicktype.io/
+
+Al poner llaves cuadradas hacemos binding de una expresion
+<img [src]="" alt="" srcset="">
+
+Local Storage: Es una característica de los navegadores web que permite a las aplicaciones web almacenar datos de forma persistente en el navegador del usuario. La información almacenada en el local storage permanece incluso después de cerrar y volver a abrir el navegador, lo que la hace útil para guardar preferencias de usuario, configuraciones y otra información que necesite persistir a lo largo del tiempo.
+
+Session Storage: Similar al local storage, el session storage también permite a las aplicaciones web almacenar datos en el navegador del usuario. Sin embargo, a diferencia del local storage, los datos almacenados en el session storage se borran automáticamente cuando se cierra el navegador o cuando se termina la sesión del usuario. Esto lo hace adecuado para almacenar información temporal que no necesita persistir más allá de la sesión actual del usuario.
+
+Cookies: Son pequeños archivos de texto almacenados en el navegador del usuario que contienen información específica sobre el usuario y su interacción con el sitio web. Los cookies se utilizan principalmente para mantener el estado de la sesión del usuario, realizar seguimiento del comportamiento de navegación y personalizar la experiencia del usuario. La información almacenada en las cookies puede ser enviada al servidor web con cada solicitud, lo que permite al backend acceder a esta información y utilizarla para diversos fines, como autenticación, análisis y personalización de contenido.
