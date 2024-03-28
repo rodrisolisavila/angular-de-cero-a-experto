@@ -1,0 +1,5 @@
+OnInit es una interfaz en Angular que define un método llamado ngOnInit. Este método se ejecuta automáticamente cuando un componente se está inicializando, es decir, justo después de que Angular haya inicializado todas las propiedades del componente, pero antes de que se muestre en la vista del usuario.
+
+Es común utilizar el método ngOnInit para realizar tareas de inicialización, como la obtención de datos del servicio, la configuración de variables, o cualquier otra operación que sea necesaria antes de que el componente esté completamente listo para su uso. Esta es una práctica estándar en Angular para organizar y mantener el código limpio y ordenado.
+
+https://animate.style/
