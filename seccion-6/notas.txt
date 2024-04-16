@@ -17,10 +17,10 @@ npm install del-cli --save-dev
 package.json
 "build:href": "ng build --base-href ./",
 
-"delete:docs": "del docs",
+"delete:docs": "del-cli docs",
 
 npm i copyfiles --save-dev
 
 "copy:dist": "copyfiles dist/bases/* ./docs -f",
 
-"build:github": "npm run delete: docs && npm run build:href && npm run copy:dist",
+"build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",

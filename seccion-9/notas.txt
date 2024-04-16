@@ -1,0 +1,40 @@
+Una SPA (Single Page Application) es una aplicación web que se carga una sola vez en el navegador del usuario y luego se actualiza dinámicamente según la interacción del usuario sin necesidad de recargar la página completa. En una SPA, toda la lógica de la aplicación, incluidas las vistas y los datos, se cargan inicialmente con la primera carga de la página. A partir de ahí, las interacciones del usuario, como hacer clic en enlaces o botones, se gestionan mediante JavaScript, que actualiza el contenido de la página de manera dinámica sin necesidad de cargar una nueva página desde el servidor.
+
+Las ventajas de las SPA incluyen una experiencia de usuario más fluida y rápida, ya que las transiciones entre páginas son instantáneas y no hay tiempos de espera de carga entre páginas. Además, al reducir la carga en el servidor al cargar solo una vez los recursos estáticos y al aprovechar el almacenamiento en caché del navegador, las SPA pueden mejorar el rendimiento y reducir el uso de ancho de banda. Sin embargo, también presentan desafíos en términos de SEO (Optimización para Motores de Búsqueda) y accesibilidad, que deben ser abordados correctamente mediante técnicas como el enrutamiento basado en el lado del servidor y la gestión adecuada del estado de la aplicación.
+
+Temas puntuales de la sección
+¿Qué veremos en esta sección?
+
+Este es un breve listado de los temas fundamentales:
+
+    Rutas
+
+    RouterLink y RouterLinkActive
+
+    Componentes especializados
+
+    DebounceTime
+
+    Inputs
+
+    SwitchMaps
+
+    Consumo de APIs
+
+    Tipado de datos
+
+    Menú de aplicación
+
+    Y más
+
+En esta sección daremos los fundamentos de una aplicación SPA (Single Page Application), y luego, las seguiremos haciendo pero mediante carga perezosa (lazyload), esta es otra aplicación real que nos enseñara mucho de cómo funciona Angular y como la información fluye en ella.
+
+
+
+--skip-tests --inline-style  
+
+@Output()
+public onValue = new EventEmitter<string>();
+
+Paste JSON as Code
+quicktype
